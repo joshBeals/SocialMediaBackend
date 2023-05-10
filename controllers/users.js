@@ -29,7 +29,14 @@ export const getUserFreiends = async (req, res) => {
                 location,
                 picturePath,
             }) => {
-                _id, firstName, lastName, occupation, location, picturePath;
+                return {
+                    _id,
+                    firstName,
+                    lastName,
+                    occupation,
+                    location,
+                    picturePath,
+                };
             }
         );
 
@@ -67,7 +74,14 @@ export const addRemoveFriend = async (req, res) => {
                 location,
                 picturePath,
             }) => {
-                _id, firstName, lastName, occupation, location, picturePath;
+                return {
+                    _id,
+                    firstName,
+                    lastName,
+                    occupation,
+                    location,
+                    picturePath,
+                };
             }
         );
 
